@@ -26,7 +26,7 @@ with DAG (dag_id = 'weather_etl_pipeline',
     
     @task()
     def extract_weather_data():
-        """Extracting weather data from Open-Meteo API using Airflow Connection"""
+        """Extracting weather data from Open-Meteo API with Airflow Connection"""
         
         # Use HTTP Hook to get connection details from Airflow Connection
         
