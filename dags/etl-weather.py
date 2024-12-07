@@ -3,8 +3,6 @@ from airflow.providers.http.hooks.http import HttpHook
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.decorators import task
 from airflow.utils.dates import days_ago
-import requests
-import json
 
 # Latitude and longitude for the desired location (Pune in this case)
 LATITUE = '18.5204'
